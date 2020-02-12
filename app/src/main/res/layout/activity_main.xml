@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightYellow"
+            android:padding="4dp"
+            android:text="Temperature Converter"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtF"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="F" />
+
+        <EditText
+            android:id="@+id/txtC"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightYellow"
+            android:padding="4dp"
+            android:text="Distance Converter"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtkm"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="km" />
+
+        <EditText
+            android:id="@+id/txtMi"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mi" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightYellow"
+            android:padding="4dp"
+            android:text="Weight Converter"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtKg"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Kg" />
+
+        <EditText
+            android:id="@+id/txtLb"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lb" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorLightYellow"
+            android:padding="4dp"
+            android:text="Volume Converter"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtL"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="L" />
+
+        <EditText
+            android:id="@+id/txtGal"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
